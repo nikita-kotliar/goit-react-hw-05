@@ -1,0 +1,23 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0;
+}
+
+.text {
+    width: 175px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #d4d4d4;
+    color: #000000;
+    border-radius: 5px;
+    transition: .5s;
+}
+.text:hover {
+    background-color: #b3b3b3;
+    color: #000000;
+    border-radius: 10px;
+}

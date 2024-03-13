@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    border: none;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    height: 39.2px;
+    padding: 0 15px;
+    border: solid 2px transparent;
+}
+
+.input:hover {
+    border: solid 2px #ffffff;
+}
+
+.button {
+    border: solid 2px transparent;
+}
+
+.button:hover {
+    border: solid 2px #ffffff;
+}
